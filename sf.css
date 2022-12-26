@@ -1,0 +1,37 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.x,.o,.l {
+  width: 25%;
+
+
+}
+
+.xz {
+  display: flex;
+  width: 750px;
+  height: 700px;
+}
+
+@media (max-width:600px){
+
+  .l {
+    height: 200px;
+    width: 300px
+  }
+
+  .o {
+    height: 200px;
+  }
+
+  .x {
+    height: 200px;
+  }
+
+  .xz {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
